@@ -1,18 +1,4 @@
-# think-filesystem for ThinkPHP6.1
-
 ## 安装
-
-把以下内容加入项目`composer.json`
-```json
-{
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./package/*"
-        }
-    ]
-}
-```
 
 > composer require gumphp/think-filesystem
 
