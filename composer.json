@@ -1,0 +1,26 @@
+{
+    "name": "gumphp/think-storage",
+    "description": "The ThinkPHP6.1 Filesystem Package",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "chenwenbin",
+            "email": "18814515@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GumPHP\\Storage\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2.5",
+        "topthink/framework": "^6.1|^8.0",
+        "league/flysystem": "^1.1.4",
+        "league/flysystem-cached-adapter": "^1.0",
+        "league/flysystem-aws-s3-v3": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
