@@ -1,6 +1,6 @@
 ## 安装
 
-> composer require gumphp/think-filesystem
+> composer require gumphp/think-storage
 
 ## 配置
 
